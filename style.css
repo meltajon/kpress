@@ -1,0 +1,183 @@
+/*
+Theme Name: Kpress
+Author: @MelTajon
+Author URI: http://twitter.com/meltajon
+Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
+Version: 1.0
+License: GNU General Public License
+Tags: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* GLOBAL
+-------------------------------------------------------*/
+body { 
+	font-size: 62.5%; line-height: 1.2rem;
+}
+body * {
+	font-size: 1rem;
+}
+
+aside { 
+	background: #EFEFEF;
+	vertical-align: top; 
+}
+
+p {
+	margin: 1em 0; 
+}
+
+.align-right {
+	text-align: right !important;
+}
+
+.wrapper { 
+	margin: 0 auto; width: 960px; 
+	text-align: center;
+}
+
+.wrapper * {
+	text-align: left;
+}	
+
+.table {
+	display: table;
+}
+
+.tr {
+	display: table-row;
+}
+.td {
+	display: table-cell;
+}
+
+.title { 
+	font-size: 2rem; font-weight: bold; }
+	
+hr { display: none; }
+	
+/* TOP
+-------------------------------------------------------*/
+#top { 
+	margin: 0; min-width: 960px; padding: 5px 0;
+	background: #000; }
+
+#social-links {
+	margin: 0 6px 0 10px;
+}
+
+.social-icon { 
+	vertical-align: text-bottom; 
+}
+
+#search-form { 
+	display: inline-block; 
+}
+
+/* HEADER
+-------------------------------------------------------*/
+#header { 
+	min-width: 960px;
+	overflow: auto; 
+}
+
+#header .wrapper {
+	padding: 0;
+}
+
+#nav {
+	margin: 6px 6px 10px 10px; 
+}
+
+#header hgroup {
+	margin: 16px 6px 20px 10px; 
+}
+
+hr {
+	clear: both;
+	width: 940px;
+}
+
+#logo {
+	display: inline-block;
+	height: 75px; width: 200px; 
+}
+#main-menu { 
+	margin: 6px 6px 10px 10px; 
+	background: gray; 
+}
+
+#menu-list {
+	background: silver; 
+	}
+.menu-item { 
+	display: inline-block; 
+	padding: 5px 17px; 
+}
+	
+	
+/* BODY
+-------------------------------------------------------*/
+#billboard { }
+#billboard img { }
+
+#articles { 
+	display: inline-block; 
+	width: 720px;
+}
+
+/* MODULES
+-------------------------------------------------------*/
+.block {
+	display: inline-block;
+	margin: 6px 6px 10px 10px;
+}
+
+.thumb-width {
+	width: 220px; 
+}
+.small-width {
+	width: 300px; 
+}
+.half {
+	width: 460px;
+}
+.medium-width {
+	width: 620px;
+}
+.large-width {
+	width: 700px;
+}
+.billboard-width { 
+	text-align: center;
+}
+
+
+.full, .half, .two-third, .third, .quarter, .nickel, .three-quarter {
+	outline: 1px solid red; 
+}
+
+
+/* MODULES
+-------------------------------------------------------*/
+#tweets-list { }
+.tweet { 
+	margin: 1em 0; 
+}
+.tweet-body {
+	display: block; 
+}
+.tweet-timestamp {
+}
+
+/* FOOTER
+-------------------------------------------------------*/
+#footer { 
+	min-width: 940px;
+	background: #000;
+	outline: 1px solid red; }
+
+#footer .wrapper { 
+	display: block; }

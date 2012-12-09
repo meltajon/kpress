@@ -1,0 +1,51 @@
+.wrapper { ;
+	width: 480px; 
+}
+
+.full { 
+	margin: 10px; 
+}
+
+.block {
+	display: block;
+	margin: 10px; width: 460px;
+}
+
+.block img { 
+}
+
+
+#top {
+	width: 480px; 
+	min-width: 480px;
+	max-width: 480px; 
+}
+
+#header {
+	min-width: 480px; 
+	width: 480px; 
+}
+
+#main-menu {
+	width: 460px; 
+}
+
+x.aside-thumb { 
+	display: block;
+	text-align: center; 
+}
+.aside-thumb img { 
+	height: auto; width: 100%; max-width: 460px; 
+}
+
+#billboard img { 
+	height: auto; max-width: 460px; 
+}
+#articles {
+	max-width: 480px; 
+}
+
+#footer {
+	min-width: 480px;
+	width: 480px; 
+}
