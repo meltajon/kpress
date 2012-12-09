@@ -14,7 +14,7 @@
 
 			</div><!-- #billboard -->
 
-			<?php get_template_part( 'content', 'single' ); ?>
+			<?php get_template_part( 'content', 'grid100' ); ?>
 
 		<?php endwhile; ?>
 
