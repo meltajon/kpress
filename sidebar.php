@@ -1,4 +1,4 @@
-<aside class="thumb-width block">
+<aside class="grid25 block">
 	<header class="aside-header">
 		<a class="aside-thumb" class="" href="#"><img src="http://quickimage.it/220x160&" /></a>
 		<h1 class="aside-title title"><a href="#">Article Title</a></h1>
