@@ -1,17 +1,4 @@
-<?php
-/**
- * The template for displaying Archive pages.
- *
- * Used to display archive-type pages if nothing more specific matches a query.
- * For example, puts together date-based pages if no date.php file exists.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package Toolbox
- * @since Toolbox 0.1
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 		<section id="primary">
 			<div id="content" role="main">
@@ -36,22 +23,11 @@ get_header(); ?>
 
 				<?php rewind_posts(); ?>
 
-				<?php toolbox_content_nav( 'nav-above' ); ?>
-
-				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to overload this in a child theme then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-					?>
+					<?php get_template_part( 'content', get_post_format() ); ?>
 
 				<?php endwhile; ?>
-
-				<?php toolbox_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 
