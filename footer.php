@@ -6,7 +6,7 @@
 <footer id="footer">
 	<div class="wrapper">
 
-		<aside id="facebook-likebox" class="small-width block">
+		<aside id="facebook-likebox" class="grid33 block">
 			<header class="aside-header">
 				<h1 class="aside-title title"><a href="#">Facebook</a></h1>
 			</header><!-- .aside-header -->
@@ -18,7 +18,7 @@
 			</footer><!-- #aside-footer -->
 		</aside><!-- .small-width -->
 		
-		<aside id="tweets" class="small-width block">
+		<aside id="tweets" class="grid33 block">
 			<header id="twitter-header" class="aside-header">
 				<h1 id="twitter-title" class="aside-title title"><a href="#">Twitter</a></h1>
 			</header><!-- .aside-header -->
@@ -41,7 +41,7 @@
 			</footer><!-- .aside-footer -->
 		</aside><!-- .small-width -->
 		
-		<aside id="instagram" class="small-width block">
+		<aside id="instagram" class="grid33 block">
 			<header id="instagram-header" class="aside-header">
 				<h1 id="instagram-title" class="aside-title title"><a href="#">Instagram</a></h1>
 			</header><!-- .aside-header -->
