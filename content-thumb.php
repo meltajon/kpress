@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="thumb-width block">
+<article id="post-<?php the_ID(); ?>" class="grid25 block">
 	<header class="aside-header">
 		<h1 class="aside-title title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'toolbox' ), the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></h1>
 	</header><!-- .aside-header -->
@@ -16,7 +16,7 @@
 	<?php endif; ?>
 </article><!-- .block -->
 
-<aside class="thumb-width block">
+<aside class="grid25 block">
 	<header class="aside-header">
 		<h1 class="aside-title title"><a href="#">Article Title</a></h1>
 	</header><!-- .aside-header -->

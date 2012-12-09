@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="large-width block">
+<article id="post-<?php the_ID(); ?>" class="grid75 block">
 	<header class="aside-header">
 		<a class="aside-thumb" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'toolbox' ), the_title_attribute( 'echo=0' ) ); ?>">
 			<?php if(has_post_thumbnail()) {

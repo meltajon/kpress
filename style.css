@@ -6,9 +6,6 @@ Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set 
 Version: 1.0
 License: GNU General Public License
 Tags: 
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 */
 
 /* GLOBAL
@@ -135,26 +132,26 @@ hr {
 	margin: 6px 6px 10px 10px;
 }
 
-.thumb-width {
+.grid25 {
 	width: 220px; 
 }
-.small-width {
+.grid33 {
 	width: 300px; 
 }
-.half {
+.grid50 {
 	width: 460px;
 }
-.medium-width {
+.grid66 {
 	width: 620px;
 }
-.large-width {
+.grid75 {
 	width: 700px;
 }
-.billboard-width { 
+.grid100 { 
 	text-align: center;
 }
 
-
+.thumb-width, .small-width, .half, .medium-width, .large-width, .billboard-width,
 .full, .half, .two-third, .third, .quarter, .nickel, .three-quarter {
 	outline: 1px solid red; 
 }
