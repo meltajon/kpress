@@ -97,7 +97,7 @@
 
 		<hgroup>
 			<div class="wrapper">
-				<h1 id="site-title"><a id="logo" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo('template_directory'); ?>/images/logo.gif" alt="<?php bloginfo( 'name' ); ?> Logo" /></a></h1>
+				<h1 id="site-title"><a id="home-link" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.gif" alt="<?php bloginfo( 'name' ); ?> Logo" /></a></h1>
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</div><!-- .wrapper -->
 		</hgroup>
