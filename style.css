@@ -101,9 +101,7 @@ hr {
 	display: inline-block;
 	height: 75px; width: 200px; 
 }
-#main-nav { 
-	margin: 6px 6px 10px 10px; 
-}
+#main-nav { }
 
 #main-menu-list {
 	background: #CCCCCC; 
