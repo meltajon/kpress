@@ -102,7 +102,7 @@
 			</div><!-- .wrapper -->
 		</hgroup>
 
-		<nav id="main-menu" class="menu">
+		<nav id="main-nav" class="nav">
 			<div class="wrapper">
 				<?php wp_nav_menu( 
 					array( 
@@ -111,8 +111,8 @@
 						'container'       => false, 
 						// 'container_class' => '', 
 						// 'container_id'    => '',
-						'menu_class'      => '', 
-						'menu_id'         => 'menu-list',
+						'menu_class'      => 'grid100 block menu-list', 
+						'menu_id'         => 'main-menu-list',
 						// 'echo'            => true,
 						// 'fallback_cb'     => 'wp_page_menu',
 						// 'before'          => '<li class="nav-item">',

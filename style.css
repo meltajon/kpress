@@ -101,14 +101,14 @@ hr {
 	display: inline-block;
 	height: 75px; width: 200px; 
 }
-#main-menu { 
+#main-nav { 
 	margin: 6px 6px 10px 10px; 
-	background: gray; 
+	outline: 1px solid red; 
 }
 
-#menu-list {
-	background: silver; 
-	}
+#main-menu-list {
+	background: #CCCCCC; 
+}
 .menu-item { 
 	display: inline-block; 
 	padding: 5px 17px; 
