@@ -1,12 +1,4 @@
-<?php
-/**
- * The template for displaying image attachments.
- *
- * @package Toolbox
- * @since Toolbox 0.1
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 		<div id="primary" class="image-attachment">
 			<div id="content" role="main">

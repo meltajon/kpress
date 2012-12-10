@@ -1,12 +1,4 @@
-<?php
-/**
- * The template for displaying 404 pages (Not Found).
- *
- * @package Toolbox
- * @since Toolbox 0.1
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 	<div id="primary">
 		<div id="content" role="main">

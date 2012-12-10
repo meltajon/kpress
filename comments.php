@@ -1,16 +1,3 @@
-<?php
-/**
- * The template for displaying Comments.
- *
- * The area of the page that contains both current comments
- * and the comment form. The actual display of comments is
- * handled by a callback to toolbox_comment() which is
- * located in the functions.php file.
- *
- * @package Toolbox
- * @since Toolbox 0.1
- */
-?>
 	<div id="comments">
 	<?php if ( post_password_required() ) : ?>
 		<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'toolbox' ); ?></p>
