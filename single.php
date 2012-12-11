@@ -5,14 +5,11 @@
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<div id="billboard" class="billboard-width block">
-				
-				<?php if(has_post_thumbnail()) {
-					echo the_post_thumbnail('billboard-image');
-					}
-				?>
-
+			<?php if(has_post_thumbnail()) { ?>
+			<div id="billboard" class="billboard-width block">				
+				<?php echo the_post_thumbnail('billboard-image'); ?>
 			</div><!-- #billboard -->
+			<?php } ?>
 
 			<?php get_template_part( 'content', 'grid100' ); ?>
 
