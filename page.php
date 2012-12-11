@@ -1,18 +1,16 @@
 <?php get_header(); ?>
 
-		<div id="primary">
-			<div id="content" role="main">
+		<div id="page" class="content">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+			<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'content', 'page' ); ?>
 
-					<?php comments_template( '', true ); ?>
+				<?php comments_template( '', true ); ?>
 
-				<?php endwhile; // end of the loop. ?>
+			<?php endwhile; // end of the loop. ?>
 
-			</div><!-- #content -->
-		</div><!-- #primary -->
+		</div><!-- #page -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

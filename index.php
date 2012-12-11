@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div id="articles">
+	<div id="articles" class="content">
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
