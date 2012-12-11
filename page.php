@@ -4,7 +4,7 @@
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'content', 'single' ); ?>
 
 				<?php comments_template( '', true ); ?>
 
