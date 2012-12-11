@@ -2,12 +2,12 @@
 
 	<div id="error-404" class="content">
 
-		<article id="post-0" class="grid100 block">
-			<header id="error-404-header" class="entry-header">
-				<h1 id="error-404-title" class="entry-title"><?php _e( 'Page Not Found', 'toolbox' ); ?></h1>
+		<article id="post-0" class="grid100 module block">
+			<header id="error-404-header" class="module-header">
+				<h1 id="error-404-title" class="module-title"><?php _e( 'Page Not Found', 'toolbox' ); ?></h1>
 			</header>
 
-			<div id="error-404-body" class="entry-content">
+			<div id="error-404-body" class="module-content">
 				<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help.', 'toolbox' ); ?></p>
 
 				<?php get_search_form(); ?>

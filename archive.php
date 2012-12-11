@@ -4,8 +4,8 @@
 
 		<?php if ( have_posts() ) : ?>
 
-			<header id="archives-header" class="page-header">
-				<h1 id="archives-title" class="page-title block">
+			<header id="archives-header" class="module-header">
+				<h1 id="archives-title" class="module-title block">
 					<?php
 						if ( is_day() ) :
 							printf( __( 'Daily Archives: %s', 'toolbox' ), '<span>' . get_the_date() . '</span>' );
@@ -28,9 +28,9 @@
 
 		<?php else : ?>
 
-			<article id="post-0" class="post no-results not-found">
-				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'Nothing Found', 'toolbox' ); ?></h1>
+			<article id="post-0" class="module">
+				<header class="module-header">
+					<h1 class="module-title"><?php _e( 'Nothing Found', 'toolbox' ); ?></h1>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
