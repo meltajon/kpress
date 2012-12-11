@@ -114,8 +114,9 @@ hr {
 	
 /* BODY
 -------------------------------------------------------*/
-#billboard { }
-#billboard img { }
+.block > img { 
+	margin-bottom: -6px;
+}
 
 #articles { 
 	display: inline-block; 
