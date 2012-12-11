@@ -5,7 +5,7 @@
 		<?php if ( have_posts() ) : ?>
 
 			<header id="archives-header" class="page-header">
-				<h1 id="archives-title" class="page-title">
+				<h1 id="archives-title" class="page-title block">
 					<?php
 						if ( is_day() ) :
 							printf( __( 'Daily Archives: %s', 'toolbox' ), '<span>' . get_the_date() . '</span>' );
