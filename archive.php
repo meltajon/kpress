@@ -6,17 +6,14 @@
 
 			<header id="archives-header" class="module-header">
 				<h1 id="archives-title" class="module-title block">
-					<?php
-						if ( is_day() ) :
-							printf( __( 'Daily Archives: %s', 'toolbox' ), '<span>' . get_the_date() . '</span>' );
-						elseif ( is_month() ) :
-							printf( __( 'Monthly Archives: %s', 'toolbox' ), '<span>' . get_the_date( 'F Y' ) . '</span>' );
-						elseif ( is_year() ) :
-							printf( __( 'Yearly Archives: %s', 'toolbox' ), '<span>' . get_the_date( 'Y' ) . '</span>' );
-						else :
-							_e( 'Archives', 'toolbox' );
-						endif;
-					?>
+					Posted 
+					<?php if ( is_day() ) : ?>
+						<span><?php print get_the_date(); ?></span>
+					<?php elseif ( is_month() ) : ?>
+						<span><?php print get_the_date( 'F Y' ); ?></span>
+					<?php elseif ( is_year() ) : ?>
+						in <span><?php print get_the_date( 'Y' ); ?></span>
+					<?php endif; ?>
 				</h1>
 			</header>
 
@@ -30,11 +27,11 @@
 
 			<article id="post-0" class="module">
 				<header class="module-header">
-					<h1 class="module-title"><?php _e( 'Nothing Found', 'toolbox' ); ?></h1>
+					<h1 class="module-title">Nothing Found</h1>
 				</header><!-- .entry-header -->
 
 				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'toolbox' ); ?></p>
+					<p>It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.</p>
 					<?php get_search_form(); ?>
 				</div><!-- .entry-content -->
 			</article><!-- #post-0 -->
