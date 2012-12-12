@@ -1,5 +1,5 @@
-<div id="sidebar">
-	<aside class="grid25 block">
+<div id="sidebar" class="grid25 block">
+	<aside>
 		<header class="module-header">
 			<a class="module-thumb" class="" href="#"><img src="http://quickimage.it/220x160&" /></a>
 			<h1 class="module-title title"><a href="#">Article Title</a></h1>
