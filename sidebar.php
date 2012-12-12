@@ -12,7 +12,7 @@
 			<p>I pulled up to a house about seven or eight. And I yelled to the cabby "Yo, homes smell you later!" Looked at my kingdom I was finally there. To sit on my throne as the prince of Bel-air</p>
 		</div><!-- .module-body -->
 		<footer id="module-footer">
-			<p class="read-more"><a href="#">Read more...</a></p>
+			<p class="read-more"><a class="more-link" href="#">Read more...</a></p>
 		</footer><!-- #module-footer -->
 	</aside><!-- .quarter -->
 </div><!-- #sidebar -->

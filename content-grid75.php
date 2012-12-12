@@ -11,7 +11,7 @@
 		<?php the_content('Continue reading <span class="meta-nav">&rarr;</span>'); ?>
 	</div><!-- .module-body -->
 	<footer id="module-footer">
-		<p class="read-more"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'toolbox' ), the_title_attribute( 'echo=0' ) ); ?>">Read more...</a></p>
+		<p class="read-more"><a class="more-link" href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'toolbox' ), the_title_attribute( 'echo=0' ) ); ?>">Read more...</a></p>
 	</footer><!-- #module-footer -->
 	<?php endif; ?>
 </article><!-- .block -->
