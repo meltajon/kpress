@@ -156,6 +156,12 @@ hr {
 	outline: 1px solid red; 
 }
 
+.module-thumb {
+	display: inline-block;
+}
+.module-thumb img {
+	margin-bottom: -6px; 
+}
 
 /* MODULES
 -------------------------------------------------------*/
