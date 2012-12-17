@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-		<section id="archives" class="content">
+		<section id="archives" class="grid75 block content">
 
 		<?php if ( have_posts() ) : ?>
 
