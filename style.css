@@ -8,7 +8,22 @@ License: GNU General Public License
 Tags: 
 */
 
-/* GLOBAL
+/* GLOBAL (Framework)
+-------------------------------------------------------*/
+.hidden { 
+	display: none; 
+}
+.table {
+	display: table;
+}
+.tr {
+	display: table-row;
+}
+.td {
+	display: table-cell;
+}
+
+/* GLOBAL (Project)
 -------------------------------------------------------*/
 body { 
 	font-size: 62.5%; line-height: 1.2rem;
@@ -37,17 +52,6 @@ p {
 
 .wrapper * {
 	text-align: left;
-}	
-
-.table {
-	display: table;
-}
-
-.tr {
-	display: table-row;
-}
-.td {
-	display: table-cell;
 }
 
 .title { 
