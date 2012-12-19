@@ -1,5 +1,5 @@
 	</div><!-- .wrapper -->
-</section><!-- #main -->
+</div><!-- #main -->
 
 <hr />
 

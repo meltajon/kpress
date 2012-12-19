@@ -131,5 +131,5 @@
 
 	<hr />
 
-	<section id="main">
+	<div id="main">
 		<div class="wrapper">
