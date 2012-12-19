@@ -150,12 +150,6 @@ hr {
 	width: 940px;
 	text-align: center;
 }
-
-.thumb-width, .small-width, .half, .medium-width, .large-width, .billboard-width,
-.full, .half, .two-third, .third, .quarter, .nickel, .three-quarter {
-	outline: 1px solid red; 
-}
-
 .module-thumb {
 	display: inline-block;
 }
