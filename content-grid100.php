@@ -1,11 +1,14 @@
 <article id="post-<?php the_ID(); ?>" class="grid100 module block">
 	<header class="module-header">
+	<?php if (get_post_meta($post->ID, 'embed_code', true) != "") { 
+		echo do_shortcode( get_post_meta($post->ID, 'embed_code', true) ); 
+	} else { ?>
+		<?php if(has_post_thumbnail()) { ?>
 		<a class="module-thumb" href="<?php the_permalink(); ?>" title="Full Post: <?php the_title_attribute('echo=0'); ?>">
-			<?php if(has_post_thumbnail()) {
-				echo the_post_thumbnail('billboard-image');
-				}
-			?>
+			<?php echo the_post_thumbnail('billboard-image'); ?>
 		</a>
+		<?php } ?>
+	<?php } ?>
 		<h1 class="module-title title"><a class="title-link" href="<?php the_permalink(); ?>" title="Full Post: <?php the_title_attribute('echo=0'); ?>"><?php the_title(); ?></a></h1>
 	</header><!-- .module-header -->
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
