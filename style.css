@@ -176,7 +176,7 @@ hr {
 #footer { 
 	min-width: 940px;
 	background: #000;
-	outline: 1px solid red; }
+}
 
 #footer .wrapper { 
 	display: block; }
