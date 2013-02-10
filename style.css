@@ -10,6 +10,28 @@ Tags:
 
 /* GLOBAL (Framework)
 -------------------------------------------------------*/
+.clearfix:before,
+.clearfix:after {
+	content: ".";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both; 
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
 .hidden { 
 	display: none !important; 
 }
@@ -22,6 +44,12 @@ Tags:
 .td {
 	display: table-cell;
 }
+.float-left {
+	float: left; 
+}
+.float-right {
+	float: right;
+}
 
 /* GLOBAL (Project)
 -------------------------------------------------------*/
@@ -33,7 +61,6 @@ body * {
 }
 
 aside { 
-	background: #EFEFEF;
 	vertical-align: top; 
 }
 
@@ -48,6 +75,7 @@ p {
 .wrapper { 
 	margin: 0 auto; width: 960px; 
 	text-align: center;
+	outline: 1px solid red; 
 }
 
 .wrapper * {
@@ -58,6 +86,57 @@ p {
 	font-size: 2rem; font-weight: bold; }
 	
 hr { display: none; }
+	
+	
+/* MODULES
+-------------------------------------------------------*/
+.module {
+	display: block;
+	float: left; 
+	margin: 0; xpadding: 10px;
+	vertical-align: top;
+	outline: 1px solid red; 
+}
+
+.block {
+	background: #EFEFEF; 
+	margin: 10px; 
+}
+
+.grid25 {
+	display: block; 
+	width: 25%; 
+}
+.grid33 {
+	display: block; /*
+	width: 31.25%; */
+	width: 33.333%;
+}
+.grid50 {
+	width: 50%;
+}
+.grid66 {
+	width: 66.666%;
+}
+.grid75 {
+	width: 75%;
+}
+.grid100 { 
+	display: block; 
+	text-align: center;
+}
+.grid100 .block { }
+
+.pad-x {
+	padding: 0 10px;
+}
+
+.module-thumb {
+	display: inline-block;
+}
+.module-thumb img {
+	margin-bottom: -6px; 
+}
 	
 /* TOP
 -------------------------------------------------------*/
@@ -80,7 +159,6 @@ hr { display: none; }
 /* HEADER
 -------------------------------------------------------*/
 #header { 
-	min-width: 960px;
 	overflow: auto; 
 }
 
@@ -88,13 +166,10 @@ hr { display: none; }
 	padding: 0;
 }
 
-#header hgroup {
-	margin: 16px 6px 20px 10px; 
-}
+#header hgroup { }
 
 hr {
 	clear: both;
-	width: 940px;
 }
 
 #logo {
@@ -120,44 +195,10 @@ hr {
 
 #articles { 
 	display: inline-block; 
-	width: 720px;
 }
 
 .section-title { }
 
-/* MODULES
--------------------------------------------------------*/
-.block {
-	display: inline-block;
-	margin: 6px 6px 10px 10px;
-	vertical-align: top; 
-}
-
-.grid25 {
-	width: 220px; 
-}
-.grid33 {
-	width: 300px; 
-}
-.grid50 {
-	width: 460px;
-}
-.grid66 {
-	width: 620px;
-}
-.grid75 {
-	width: 700px;
-}
-.grid100 { 
-	width: 940px;
-	text-align: center;
-}
-.module-thumb {
-	display: inline-block;
-}
-.module-thumb img {
-	margin-bottom: -6px; 
-}
 
 /* MODULES
 -------------------------------------------------------*/
@@ -174,7 +215,6 @@ hr {
 /* FOOTER
 -------------------------------------------------------*/
 #footer { 
-	min-width: 940px;
 	background: #000;
 }
 

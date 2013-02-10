@@ -95,16 +95,19 @@
 		</div><!-- .wrapper -->
 	</section><!-- #top -->
 
-	<header id="header">
+	<header id="header" class="wrapper">
 		<div class="wrapper">
-			<hgroup class="grid100 block">
-				<h1 id="site-title"><a id="home-link" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.gif" alt="<?php bloginfo( 'name' ); ?> Logo" /></a></h1>
-				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</hgroup>
+			<hgroup class="grid100 module">
+				<div class="block">
+					<h1 id="site-title"><a id="home-link" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img id="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.gif" alt="<?php bloginfo( 'name' ); ?> Logo" /></a></h1>
+					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+				</div><!-- .block -->
+			</hgroup><!-- .module -->
 		</div><!-- .wrapper -->
 
 		<nav id="main-nav" class="nav">
 			<div class="wrapper">
+				<div class="grid100 module">
 				<?php wp_nav_menu( 
 					array( 
 						// 'theme_location'  => 'primary',
@@ -112,7 +115,7 @@
 						'container'       => false, 
 						// 'container_class' => '', 
 						// 'container_id'    => '',
-						'menu_class'      => 'grid100 block menu-list', 
+						'menu_class'      => ' block menu-list', 
 						'menu_id'         => 'main-menu-list',
 						// 'echo'            => true,
 						// 'fallback_cb'     => 'wp_page_menu',
@@ -126,11 +129,12 @@
 						) 
 					); 
 				?>
+				</div><!-- .module -->
 			</div><!-- .wrapper -->
 		</nav><!-- #access -->
 	</header><!-- #header -->
 
 	<hr />
 
-	<div id="main">
+	<div id="main" class="clearfix">
 		<div class="wrapper">
