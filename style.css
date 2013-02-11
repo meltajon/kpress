@@ -59,7 +59,15 @@ body {
 body * {
 	font-size: 1rem;
 }
+.wrapper { 
+	margin: 0 auto; width: 810px; 
+	text-align: center;
+	outline: 1px solid red; 
+}
 
+.wrapper * {
+	text-align: left;
+}
 aside { 
 	vertical-align: top; 
 }
@@ -70,16 +78,6 @@ p {
 
 .align-right {
 	text-align: right !important;
-}
-
-.wrapper { 
-	margin: 0 auto; width: 960px; 
-	text-align: center;
-	outline: 1px solid red; 
-}
-
-.wrapper * {
-	text-align: left;
 }
 
 .title { 
@@ -132,10 +130,10 @@ hr { display: none; }
 }
 
 .module-thumb {
-	display: inline-block;
+	display: block;
 }
 .module-thumb img {
-	margin-bottom: -6px; 
+	height: auto; width: 100%; 
 }
 	
 /* TOP
