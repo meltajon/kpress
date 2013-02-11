@@ -39,7 +39,6 @@
 <link rel='stylesheet' type="text/css" media='all' href='<?php bloginfo('stylesheet_directory'); ?>/reset.css' />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel='stylesheet' type="text/css" media='all' href='<?php bloginfo('stylesheet_directory'); ?>/style-diagnostic.css' />
-<link rel='stylesheet' type="text/css" media='screen and (max-width: 810px)' href='<?php bloginfo('stylesheet_directory'); ?>/style-810.css' />
 <link rel='stylesheet' type="text/css" media='screen and (max-width: 480px)' href='<?php bloginfo('stylesheet_directory'); ?>/style-480.css' />
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
