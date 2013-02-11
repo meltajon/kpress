@@ -102,12 +102,9 @@ hr { display: none; }
 }
 
 .grid25 {
-	display: block; 
 	width: 25%; 
 }
 .grid33 {
-	display: block; /*
-	width: 31.25%; */
 	width: 33.333%;
 }
 .grid50 {
@@ -120,11 +117,8 @@ hr { display: none; }
 	width: 75%;
 }
 .grid100 { 
-	display: block; 
 	text-align: center;
 }
-.grid100 .block { }
-
 .pad-x {
 	padding: 0 10px;
 }
