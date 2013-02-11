@@ -11,9 +11,15 @@
 	margin: 10px; width: 460px;
 }
 
-.block img { 
+.grid25,
+.grid33,
+.grid50,
+.grid66, 
+.grid75,
+.grid100 { 
+	width: 480px;
+	text-align: center;
 }
-
 
 #top {
 	width: 480px; 
