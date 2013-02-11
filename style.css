@@ -60,10 +60,21 @@ body * {
 	font-size: 1rem;
 }
 .wrapper { 
-	margin: 0 auto; width: 810px; 
+	margin: 0 auto; 
 	text-align: center;
-	outline: 1px solid red; 
 }
+
+@media all and (min-width: 481px) and (max-width: 959px) {
+	.wrapper {
+		width: 100%;
+	}
+}
+@media all and (min-width: 960px) {
+	.wrapper {
+		width: 960px;
+	}
+}
+
 
 .wrapper * {
 	text-align: left;
@@ -93,7 +104,6 @@ hr { display: none; }
 	float: left; 
 	margin: 0; xpadding: 10px;
 	vertical-align: top;
-	outline: 1px solid red; 
 }
 
 .block {
