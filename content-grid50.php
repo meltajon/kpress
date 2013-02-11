@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="grid50 module">
+<article id="post-<?php the_ID(); ?>">
 	<div class="block">
 		<header class="module-header">
 			<h1 class="module-title title"><a class="title-link" href="<?php the_permalink(); ?>" title="Full Post: <?php the_title_attribute( 'echo=0' ); ?>"><?php the_title(); ?></a></h1>

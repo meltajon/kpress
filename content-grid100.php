@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" class="grid100">
+<article id="post-<?php the_ID(); ?>">
 	<div class="block">
 		<header class="module-header">
 		<?php if (get_post_meta($post->ID, 'embed_code', true) != "") { 
