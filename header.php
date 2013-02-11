@@ -115,7 +115,7 @@
 						'container'       => false, 
 						// 'container_class' => '', 
 						// 'container_id'    => '',
-						'menu_class'      => ' block menu-list', 
+						'menu_class'      => 'block menu-list', 
 						'menu_id'         => 'main-menu-list',
 						// 'echo'            => true,
 						// 'fallback_cb'     => 'wp_page_menu',
@@ -131,7 +131,7 @@
 				?>
 				</div><!-- .module -->
 			</div><!-- .wrapper -->
-		</nav><!-- #access -->
+		</nav><!-- #main-nav -->
 	</header><!-- #header -->
 
 	<hr />

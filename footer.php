@@ -59,9 +59,9 @@
 		</aside><!-- .small-width -->
 	</div><!-- .wrapper -->
 
-	<div class="wrapper">
-		<nav id="footer-menu" class="menu">
-			<div class="block">
+	<nav id="footer-nav" class="nav">
+		<div class="wrapper">
+			<div class="grid100 module">
 				<?php wp_nav_menu( 
 					array( 
 						// 'theme_location'  => 'primary',
@@ -69,8 +69,8 @@
 						'container'       => false, 
 						// 'container_class' => '', 
 						// 'container_id'    => '',
-						'menu_class'      => '', 
-						'menu_id'         => 'menu-list',
+						'menu_class'      => 'block menu-list', 
+						'menu_id'         => 'footer-menu-list',
 						// 'echo'            => true,
 						// 'fallback_cb'     => 'wp_page_menu',
 						// 'before'          => '<li class="nav-item">',
@@ -83,10 +83,9 @@
 						) 
 					); 
 				?>
-			</div><!-- .block -->
-		</nav><!-- #access -->
-	
-	</div><!-- .wrapper -->
+			</div><!-- .module -->
+		</div><!-- .wrapper -->
+	</nav><!-- #footer-nav -->
 </footer><!-- #footer -->
 
 <?php wp_footer(); ?>
