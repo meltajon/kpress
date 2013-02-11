@@ -40,6 +40,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel='stylesheet' type="text/css" media='all' href='<?php bloginfo('stylesheet_directory'); ?>/style-diagnostic.css' />
 <link rel='stylesheet' type="text/css" media='screen and (max-width: 480px)' href='<?php bloginfo('stylesheet_directory'); ?>/style-480.css' />
+<link rel='stylesheet' type="text/css" media='screen and (min-width: 481px) and (max-width: 720px)' href='<?php bloginfo('stylesheet_directory'); ?>/style-720.css' />
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>

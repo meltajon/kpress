@@ -1,0 +1,57 @@
+.wrapper { 
+	width: 720px; 
+}
+
+.full { 
+	margin: 10px; 
+}
+
+.block {
+	display: block;
+	margin: 10px; width: 700px;
+}
+
+.grid25,
+.grid33,
+.grid50,
+.grid66, 
+.grid75,
+.grid100 { 
+	width: 720px;
+	text-align: center;
+}
+
+#top {
+	width: 720px; 
+	min-width: 720px;
+	max-width: 720px; 
+}
+
+#header {
+	min-width: 720px; 
+	width: 720px; 
+}
+
+#main-menu {
+	width: 700px; 
+}
+
+x.aside-thumb { 
+	display: block;
+	text-align: center; 
+}
+.aside-thumb img { 
+	height: auto; width: 100%; max-width: 700px; 
+}
+
+#billboard img { 
+	height: auto; max-width: 700px; 
+}
+#articles {
+	max-width: 720px; 
+}
+
+#footer {
+	min-width: 720px;
+	width: 720px; 
+}
